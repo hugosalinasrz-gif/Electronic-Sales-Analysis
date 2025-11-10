@@ -54,7 +54,7 @@ These findings suggest that focusing on older customer segments, reinforcing yea
   - Interactive Dashboard  
 
 ---
-
+```
 ## 🗂️ Project Structure
 
 sales-analysis-project/
@@ -66,3 +66,4 @@ sales-analysis-project/
     └── transformed_data.csv    ← Cleaned dataset ready for analysis
 ├──Visuals
    ├──Dashboard_overview.png
+```
