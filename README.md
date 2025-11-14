@@ -1,69 +1,43 @@
-# Electronic Sales Analysis Report
+# Electronic Sales Analysis (Excel Project)
 
-## 📋 Overview
-This project focuses on analyzing a Kaggle dataset of electronic sales (20,000 rows, 2023–2024) to build a structured report and deliver actionable business insights.  
-The main goal was to demonstrate how common sales questions can be answered through **data preparation and visualization** using **Excel** with **Power Query**, **Pivot Tables**, and **interactive dashboards**.
+**Data Analysis Project | Excel | Power Query | Pivot Tables**
 
----
-
-## 🧹 Data Preparation
-Data cleaning and transformation were performed in Power Query to prepare the dataset for analysis:
-- Removed blank rows and adjusted data types  
-- Added a custom column for total sales (`total_calculated`)  
-- Created a separate month column with a new date format  
-- Reordered columns for clarity  
-- Added a conditional column (`group_age`) to classify customers by age group  
-
-**Manual adjustments:**
-- `quantity_adjusted`: manually corrected column to fix minor data inconsistencies in quantities before analysis. Adjustments not performed in Power Query.
+![Excel](https://img.shields.io/badge/Microsoft-Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
 
 ---
 
-## 📊 Visualization Process
-The analysis explored key sales-related questions and visualizations:
-
-- **How have sales evolved monthly?**  
-- **Which product category sells the most units?**  
-- **What is the sales distribution per age group?**
-
-Additional dashboard visuals include:
-- Product preferences by gender  
-- Most used payment method  
-- Average product rating  
+## 1. Project Overview
+This project focused on analyzing a Kaggle dataset of electronic sales (20,000 rows, 2023–2024) to build a structured report and deliver actionable insights. The main goal was to demonstrate how common sales questions can be answered through data preparation (ETL) and visualization.
 
 ---
 
-## 📈 Key Insights
-The final Excel dashboard consolidates all main sales questions into a single interactive view.  
-It integrates pivot charts and slicers, enabling dynamic exploration by product, payment method, age group, and month.
+## 2. Dashboard Showcase
 
-**Highlights:**
-- **Age group impact:** Customers over 50 generate nearly half of total sales (~$33M), while the under-25 segment contributes only ~$7.4M.  
-- **Seasonality:** Sales peak mid-year, especially in **August ($7.3M)**, but drop by over **70% in December**.  
-- **Product performance:** Smartphones dominate the market with **37K units sold**, far surpassing other categories.  
-
-These findings suggest that focusing on older customer segments, reinforcing year-end sales strategies, and prioritizing smartphone marketing could help maximize future sales performance.
+![Retail Sales Dashboard Showcase](./assets/dashboard_showcase.png)
 
 ---
 
-## 🧰 Tools Used
-- Microsoft Excel  
-  - Power Query  
-  - Pivot Tables  
-  - Pivot Charts  
-  - Interactive Dashboard  
+## 3. Key Insights (Teaser)
+The full analysis (available in the PDF report) revealed three critical insights that moved beyond basic observations to identify strategic risks and opportunities.
+
+* **Insight 1:** Critical Q4 Revenue Collapse
+* **Insight 2:** Revenue Concentration in Smartphones
+* **Insight 3:** 50+ Age Group as the Core Customer
 
 ---
-```
-## 🗂️ Project Structure
 
-sales-analysis-project/
-├── README.md                   ← Project explanation
-├── Sales_Analysis_Report.pdf   ← PDF documentation
-├── Sales_Dashboard.xlsx        ← Interactive dashboard
-└── data_preparation/
-    ├── raw_data.csv            ← Original dataset
-    └── transformed_data.csv    ← Cleaned dataset ready for analysis
-├──Visuals
-   ├──Dashboard_overview.png
-```
+## 4. 🚀 Full Report & Dashboard File
+To see the complete in-depth analysis, methodology, and strategic recommendations for each insight, please read the full project report.
+
+➡️ **[View Full Project Report (PDF)](./Hugo_Salinas_Excel_Sales_Analysis.pdf)**
+
+➡️ **[View Interactive Excel Dashboard File](./Sales_Dashboard.xlsx)**
+
+---
+
+## 5. Tools Used
+* **Microsoft Excel:**
+    * Power Query (For ETL: data cleaning, transformation, and feature engineering)
+    * Pivot Tables (For analysis)
+    * Pivot Charts & Slicers (For the interactive dashboard)
+* **Data Source:** Kaggle (20k rows)
